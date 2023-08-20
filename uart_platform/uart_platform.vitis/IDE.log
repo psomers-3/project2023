@@ -1,0 +1,238 @@
+16:09:55 DEBUG : Logs will be stored at 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/IDE.log'.
+16:09:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Xilinx\VivadoProjects\uart_platform\uart_platform.vitis\temp_xsdb_launch_script.tcl
+16:09:58 INFO  : Registering command handlers for Vitis TCF services
+16:09:58 INFO  : Platform repository initialization has completed.
+16:10:00 INFO  : XSCT server has started successfully.
+16:10:00 INFO  : Successfully done setting XSCT server connection channel  
+16:10:00 INFO  : plnx-install-location is set to ''
+16:10:00 INFO  : Successfully done query RDI_DATADIR 
+16:10:00 INFO  : Successfully done setting workspace for the tool. 
+16:10:38 INFO  : Result from executing command 'getProjects': uart_platform_project
+16:10:38 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+16:11:41 INFO  : Result from executing command 'getProjects': uart_platform_project
+16:11:41 INFO  : Result from executing command 'getPlatforms': uart_platform_project|C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/uart_platform_project.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+16:13:41 INFO  : Checking for BSP changes to sync application flags for project 'uart_app'...
+16:14:56 INFO  : Bit file 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit' is generated.
+16:14:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:14:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:15:00 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:15:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:15:42 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+16:15:42 INFO  : 'jtag frequency' command is executed.
+16:15:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:15:43 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:15:43 INFO  : Context for processor 'microblaze_0' is selected.
+16:15:43 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa'.
+16:15:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:15:43 INFO  : Context for processor 'microblaze_0' is selected.
+16:15:43 INFO  : System reset is completed.
+16:15:47 INFO  : 'after 3000' command is executed.
+16:15:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:15:47 INFO  : The application 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf' is downloaded to processor 'microblaze_0'.
+16:15:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf
+----------------End of Script----------------
+
+16:15:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:15:47 INFO  : 'con' command is executed.
+16:15:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:15:47 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\uart_platform\uart_platform.vitis\uart_app_system\_ide\scripts\debugger_uart_app-default.tcl'
+16:17:06 INFO  : Checking for BSP changes to sync application flags for project 'uart_app'...
+16:18:20 INFO  : Checking for BSP changes to sync application flags for project 'uart_app'...
+16:19:39 INFO  : Bit file 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit' is generated.
+16:19:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:19:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:19:41 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:20:32 INFO  : Disconnected from the channel tcfchan#2.
+16:20:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:20:33 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+16:20:33 INFO  : 'jtag frequency' command is executed.
+16:20:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:20:35 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:20:35 INFO  : Context for processor 'microblaze_0' is selected.
+16:20:35 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa'.
+16:20:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:20:35 INFO  : Context for processor 'microblaze_0' is selected.
+16:20:35 INFO  : System reset is completed.
+16:20:38 INFO  : 'after 3000' command is executed.
+16:20:38 INFO  : Context for processor 'microblaze_0' is selected.
+16:20:38 INFO  : The application 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf' is downloaded to processor 'microblaze_0'.
+16:20:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf
+----------------End of Script----------------
+
+16:20:38 INFO  : Context for processor 'microblaze_0' is selected.
+16:20:38 INFO  : 'con' command is executed.
+16:20:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:20:38 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\uart_platform\uart_platform.vitis\uart_app_system\_ide\scripts\debugger_uart_app-default.tcl'
+16:21:49 INFO  : Disconnected from the channel tcfchan#3.
+16:21:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:21:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+16:21:59 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+16:22:44 INFO  : Bit file 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit' is generated.
+16:22:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:22:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:22:45 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:22:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:22:56 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+16:22:56 INFO  : 'jtag frequency' command is executed.
+16:22:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:22:58 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:22:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:22:58 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa'.
+16:22:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:22:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:22:58 INFO  : System reset is completed.
+16:23:01 INFO  : 'after 3000' command is executed.
+16:23:01 INFO  : Context for processor 'microblaze_0' is selected.
+16:23:01 INFO  : The application 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf' is downloaded to processor 'microblaze_0'.
+16:23:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf
+----------------End of Script----------------
+
+16:23:01 INFO  : Context for processor 'microblaze_0' is selected.
+16:23:01 INFO  : 'con' command is executed.
+16:23:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:23:01 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\uart_platform\uart_platform.vitis\uart_app_system\_ide\scripts\debugger_uart_app-default.tcl'
+16:23:55 INFO  : Checking for BSP changes to sync application flags for project 'uart_app'...
+16:24:04 INFO  : Disconnected from the channel tcfchan#4.
+16:24:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:24:06 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+16:24:06 INFO  : 'jtag frequency' command is executed.
+16:24:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:24:07 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:24:07 INFO  : Context for processor 'microblaze_0' is selected.
+16:24:07 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa'.
+16:24:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:24:07 INFO  : Context for processor 'microblaze_0' is selected.
+16:24:07 INFO  : System reset is completed.
+16:24:10 INFO  : 'after 3000' command is executed.
+16:24:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:24:10 INFO  : The application 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf' is downloaded to processor 'microblaze_0'.
+16:24:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf
+----------------End of Script----------------
+
+16:24:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:24:10 INFO  : 'con' command is executed.
+16:24:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:24:10 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\uart_platform\uart_platform.vitis\uart_app_system\_ide\scripts\debugger_uart_app-default.tcl'
+16:24:47 INFO  : Checking for BSP changes to sync application flags for project 'uart_app'...
+16:25:00 INFO  : Disconnected from the channel tcfchan#5.
+16:25:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+16:25:11 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+16:25:38 INFO  : Bit file 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit' is generated.
+16:25:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:25:39 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:25:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:42 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+16:25:42 INFO  : 'jtag frequency' command is executed.
+16:25:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+16:25:43 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit"
+16:25:43 INFO  : Context for processor 'microblaze_0' is selected.
+16:25:43 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa'.
+16:25:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:25:43 INFO  : Context for processor 'microblaze_0' is selected.
+16:25:43 INFO  : System reset is completed.
+16:25:46 INFO  : 'after 3000' command is executed.
+16:25:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:25:47 INFO  : The application 'C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf' is downloaded to processor 'microblaze_0'.
+16:25:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/export/uart_platform_project/hw/uart_platform_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_app/Debug/uart_app.elf
+----------------End of Script----------------
+
+16:25:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:25:47 INFO  : 'con' command is executed.
+16:25:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:25:47 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\uart_platform\uart_platform.vitis\uart_app_system\_ide\scripts\debugger_uart_app-default.tcl'
+16:50:56 INFO  : Disconnected from the channel tcfchan#6.

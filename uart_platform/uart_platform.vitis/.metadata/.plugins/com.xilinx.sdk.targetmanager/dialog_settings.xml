@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="uart_app_system-bitFile" value="${project_loc:uart_app}/_ide/bitstream/uart_platform_wrapper.bit"/>
+	<item key="uart_app_system-bmmFile" value="${project_loc:uart_app}/_ide/bitstream/uart_platform_wrapper.mmi"/>
+	<item key="uart_app_system-target" value="Local"/>
+	<item key="uart_app_system-device" value="Auto Detect"/>
+	<item key="uart_app_system-partial_bit" value="false"/>
+	<item key="uart_app_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="uart_app_system"/>
+	<item key="uart_app_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty 210319A396E5A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty-210319A396E5A-0362d093-0&quot;}}]}"/>
+</section>

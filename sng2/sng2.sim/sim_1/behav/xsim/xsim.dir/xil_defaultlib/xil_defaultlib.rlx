@@ -1,0 +1,10 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Xilinx/VivadoProjects/sng2/sng2.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/comparator.v,1692372449,verilog,,C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/lfsr.v,,comparator,,,,,,,,
+C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/lfsr.v,1692374053,verilog,,C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/sng.v,,lfsr,,,,,,,,
+C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/neuron.v,1692376906,verilog,,,,neuron,,,,,,,,
+C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/sng.v,1692374280,verilog,,C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/stochastic_multiplier.v,,sng,,,,,,,,
+C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/stochastic_multiplier.v,1692373916,verilog,,C:/Xilinx/VivadoProjects/sng2/sng2.srcs/sources_1/new/neuron.v,,stochastic_multiplier,,,,,,,,

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="driverTester" location="C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTester" platform="C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/export/driverTest/driverTest.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="driverTester_system" sysConfig="driverTest" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="c98e44b29e53bee562a208060839b85e">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.392353906">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1712618064" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

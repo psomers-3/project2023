@@ -1,0 +1,69 @@
+13:42:32 **** Build of project driverTest ****
+buildplatform.bat 57170 driverTest  
+XSDB Server Channel: tcfchan#2
+Building the BSP Library for domain  - standalone_domain on processor microblaze_0
+make --no-print-directory seq_libs
+
+"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src"
+
+make -C microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-
+ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sec
+tions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src"
+
+make -C microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar"
+ "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sectio
+ns -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Compiling GPIO_Control_Pat..."
+
+cc1.exe: fatal error: *.c: Invalid argument
+compilation terminated.
+make[2]: *** [Makefile:18: libs] Error 1
+make[1]: *** [Makefile:46: microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src/make.libs] Error 2
+make: *** [Makefile:18: all] Error 2
+Failed to build  the bsp sources for domain - standalone_domain
+Failed to generate the platform.
+Reason: Failed to build  the bsp sources for domain - standalone_domain
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active driverTest; platform generate }}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "C:/Xilinx/Vitis/2022.1\scripts\vitis\util\buildplatform.tcl" line 11)
+13:42:34 **** Incremental Build of configuration Debug for project driverTester ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/export/driverTest/sw/driverTest/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:1:10: fatal error: xparameters.h: No such file or directory
+    1 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/main.o] Error 1

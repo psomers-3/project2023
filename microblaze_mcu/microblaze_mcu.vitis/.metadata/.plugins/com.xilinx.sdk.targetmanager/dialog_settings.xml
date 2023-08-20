@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="microblaze_app1_system-bitFile" value="${project_loc:microblaze_app1}/_ide/bitstream/design_1_wrapper.bit"/>
+	<item key="microblaze_app1_system-bmmFile" value="${project_loc:microblaze_app1}/_ide/bitstream/design_1_wrapper.mmi"/>
+	<item key="microblaze_app1_system-target" value="Local"/>
+	<item key="microblaze_app1_system-device" value="Auto Detect"/>
+	<item key="microblaze_app1_system-partial_bit" value="false"/>
+	<item key="microblaze_app1_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="microblaze_app1_system"/>
+	<item key="microblaze_app1_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty 210319A396E5A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty-210319A396E5A-0362d093-0&quot;}}]}"/>
+</section>

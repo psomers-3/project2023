@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_mcu_platform\export\microblaze_mcu_platform"/>
+</section>

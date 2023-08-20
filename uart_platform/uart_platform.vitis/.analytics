@@ -1,0 +1,11 @@
+timestamp=[2023-07-20 16:09:57], mode=WORKBENCH_START, duration=0:00:05.359, duration_ms=5359, data={}
+timestamp=[2023-07-20 16:09:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.297, duration_ms=297, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-07-20 16:09:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.422, duration_ms=422, data={}
+timestamp=[2023-07-20 16:10:39], mode=PLATFORM_CREATION, duration=0:00:02.318, duration_ms=2318, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-07-20 16:11:41], mode=PLATFORM_GENERATION, duration=0:00:05.371, duration_ms=5371, data={name=uart_platform_project}
+timestamp=[2023-07-20 16:12:09], mode=APP_CREATION, duration=0:00:01.283, duration_ms=1283, data={name=uart_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=uart_platform_project, application_type=application}
+timestamp=[2023-07-20 16:13:42], mode=BUILD, duration=0:00:01.139, duration_ms=1139, data={name=uart_app, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 16:17:06], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=uart_app, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 16:18:21], mode=BUILD, duration=0:00:00.631, duration_ms=631, data={name=uart_app, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 16:23:56], mode=BUILD, duration=0:00:00.634, duration_ms=634, data={name=uart_app, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 16:24:47], mode=BUILD, duration=0:00:00.653, duration_ms=653, data={name=uart_app, configuration=Debug, clean_build=false}

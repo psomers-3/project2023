@@ -1,0 +1,583 @@
+12:43:05 DEBUG : Logs will be stored at 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/IDE.log'.
+12:43:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\temp_xsdb_launch_script.tcl
+12:43:08 INFO  : Registering command handlers for Vitis TCF services
+12:43:08 INFO  : Platform repository initialization has completed.
+12:43:11 INFO  : XSCT server has started successfully.
+12:43:14 INFO  : Successfully done setting XSCT server connection channel  
+12:43:14 INFO  : plnx-install-location is set to ''
+12:43:14 INFO  : Successfully done query RDI_DATADIR 
+12:43:14 INFO  : Successfully done setting workspace for the tool. 
+12:43:48 INFO  : Result from executing command 'getProjects': microblaze_mcu_platform
+12:43:48 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:44:26 INFO  : Result from executing command 'getProjects': microblaze_mcu_platform
+12:44:26 INFO  : Result from executing command 'getPlatforms': microblaze_mcu_platform|C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/microblaze_mcu_platform.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:50:03 INFO  : Bit file 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit' is generated.
+12:50:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:50:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+12:50:07 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+12:51:12 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+12:51:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:51:25 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+12:51:25 INFO  : 'jtag frequency' command is executed.
+12:51:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+12:51:26 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+12:51:26 INFO  : Context for processor 'microblaze_0' is selected.
+12:51:26 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+12:51:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:51:26 INFO  : Context for processor 'microblaze_0' is selected.
+12:51:26 INFO  : System reset is completed.
+12:51:29 INFO  : 'after 3000' command is executed.
+12:51:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:51:29 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+12:51:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+12:51:30 INFO  : Context for processor 'microblaze_0' is selected.
+12:51:30 INFO  : 'con' command is executed.
+12:51:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:51:30 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+12:51:47 INFO  : Disconnected from the channel tcfchan#2.
+12:51:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:51:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:51:57 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:52:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:52:25 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+12:52:25 INFO  : 'jtag frequency' command is executed.
+12:52:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+12:52:26 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+12:52:26 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:26 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+12:52:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:52:26 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:26 INFO  : System reset is completed.
+12:52:29 INFO  : 'after 3000' command is executed.
+12:52:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:29 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+12:52:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+12:52:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:29 INFO  : 'con' command is executed.
+12:52:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:52:29 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+13:29:07 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+13:29:49 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+13:32:49 INFO  : Disconnected from the channel tcfchan#3.
+13:32:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:32:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:32:59 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:33:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:33:14 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+13:33:14 INFO  : 'jtag frequency' command is executed.
+13:33:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+13:33:15 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+13:33:15 INFO  : Context for processor 'microblaze_0' is selected.
+13:33:15 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+13:33:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:33:15 INFO  : Context for processor 'microblaze_0' is selected.
+13:33:15 INFO  : System reset is completed.
+13:33:18 INFO  : 'after 3000' command is executed.
+13:33:18 INFO  : Context for processor 'microblaze_0' is selected.
+13:33:18 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+13:33:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+13:33:18 INFO  : Context for processor 'microblaze_0' is selected.
+13:33:18 INFO  : 'con' command is executed.
+13:33:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:33:18 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+13:34:30 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+13:34:45 INFO  : Disconnected from the channel tcfchan#4.
+13:34:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:34:47 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+13:34:47 INFO  : 'jtag frequency' command is executed.
+13:34:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+13:34:48 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+13:34:48 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:48 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+13:34:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:34:48 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:48 INFO  : System reset is completed.
+13:34:51 INFO  : 'after 3000' command is executed.
+13:34:51 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:51 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+13:34:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+13:34:51 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:51 INFO  : 'con' command is executed.
+13:34:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:34:51 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+13:39:31 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+13:39:43 INFO  : Disconnected from the channel tcfchan#5.
+13:39:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:39:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:39:53 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:39:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:39:58 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+13:39:58 INFO  : 'jtag frequency' command is executed.
+13:39:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+13:39:59 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+13:40:00 INFO  : Context for processor 'microblaze_0' is selected.
+13:40:00 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+13:40:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:40:00 INFO  : Context for processor 'microblaze_0' is selected.
+13:40:00 INFO  : System reset is completed.
+13:40:03 INFO  : 'after 3000' command is executed.
+13:40:03 INFO  : Context for processor 'microblaze_0' is selected.
+13:40:03 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+13:40:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+13:40:03 INFO  : Context for processor 'microblaze_0' is selected.
+13:40:03 INFO  : 'con' command is executed.
+13:40:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:40:03 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+13:45:37 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+13:45:42 INFO  : Disconnected from the channel tcfchan#6.
+13:45:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:45:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:45:53 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:46:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:46:13 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+13:46:13 INFO  : 'jtag frequency' command is executed.
+13:46:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+13:46:14 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+13:46:14 INFO  : Context for processor 'microblaze_0' is selected.
+13:46:14 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+13:46:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:46:14 INFO  : Context for processor 'microblaze_0' is selected.
+13:46:14 INFO  : System reset is completed.
+13:46:17 INFO  : 'after 3000' command is executed.
+13:46:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:46:17 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+13:46:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+13:46:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:46:17 INFO  : 'con' command is executed.
+13:46:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:46:17 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+13:47:42 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+13:47:49 INFO  : Disconnected from the channel tcfchan#7.
+13:47:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:47:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:47:59 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:48:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:48:02 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+13:48:02 INFO  : 'jtag frequency' command is executed.
+13:48:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+13:48:04 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+13:48:04 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:04 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+13:48:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:48:04 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:04 INFO  : System reset is completed.
+13:48:07 INFO  : 'after 3000' command is executed.
+13:48:07 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:07 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+13:48:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+13:48:07 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:07 INFO  : 'con' command is executed.
+13:48:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:48:07 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+13:48:42 INFO  : Disconnected from the channel tcfchan#8.
+13:48:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:48:43 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+13:48:43 INFO  : 'jtag frequency' command is executed.
+13:48:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+13:48:44 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+13:48:44 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:44 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+13:48:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:48:44 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:44 INFO  : System reset is completed.
+13:48:47 INFO  : 'after 3000' command is executed.
+13:48:47 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:47 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+13:48:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+13:48:47 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:47 INFO  : 'con' command is executed.
+13:48:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:48:47 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+13:48:54 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+13:48:58 INFO  : Disconnected from the channel tcfchan#9.
+13:48:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:49:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:49:08 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:49:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:49:13 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+13:49:13 INFO  : 'jtag frequency' command is executed.
+13:49:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+13:49:14 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+13:49:14 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:14 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+13:49:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:49:14 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:14 INFO  : System reset is completed.
+13:49:17 INFO  : 'after 3000' command is executed.
+13:49:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:17 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+13:49:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+13:49:18 INFO  : Context for processor 'microblaze_0' is selected.
+13:49:18 INFO  : 'con' command is executed.
+13:49:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:49:18 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+13:50:26 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+13:50:29 INFO  : Disconnected from the channel tcfchan#10.
+13:50:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:50:30 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+13:50:30 INFO  : 'jtag frequency' command is executed.
+13:50:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+13:50:32 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+13:50:32 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:32 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+13:50:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:50:32 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:32 INFO  : System reset is completed.
+13:50:35 INFO  : 'after 3000' command is executed.
+13:50:35 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:35 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+13:50:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+13:50:35 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:35 INFO  : 'con' command is executed.
+13:50:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:50:35 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+15:32:42 INFO  : Disconnected from the channel tcfchan#11.
+17:45:44 DEBUG : Logs will be stored at 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/IDE.log'.
+17:45:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\temp_xsdb_launch_script.tcl
+17:45:49 INFO  : XSCT server has started successfully.
+17:45:49 INFO  : plnx-install-location is set to ''
+17:45:49 INFO  : Successfully done setting XSCT server connection channel  
+17:45:49 INFO  : Successfully done setting workspace for the tool. 
+17:45:51 INFO  : Platform repository initialization has completed.
+17:45:51 INFO  : Registering command handlers for Vitis TCF services
+17:45:54 INFO  : Successfully done query RDI_DATADIR 
+17:46:14 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+17:47:06 INFO  : Bit file 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit' is generated.
+17:47:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:47:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+17:47:10 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+17:47:19 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+17:47:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:47:42 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+17:47:42 INFO  : 'jtag frequency' command is executed.
+17:47:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+17:47:43 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+17:47:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:47:43 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+17:47:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:47:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:47:43 INFO  : System reset is completed.
+17:47:46 INFO  : 'after 3000' command is executed.
+17:47:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:47:46 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+17:47:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+17:47:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:47:46 INFO  : 'con' command is executed.
+17:47:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:47:46 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+17:51:31 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+17:51:40 INFO  : Disconnected from the channel tcfchan#1.
+17:51:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:51:41 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+17:51:41 INFO  : 'jtag frequency' command is executed.
+17:51:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+17:51:43 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+17:51:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:51:43 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+17:51:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:51:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:51:43 INFO  : System reset is completed.
+17:51:46 INFO  : 'after 3000' command is executed.
+17:51:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:51:46 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+17:51:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+17:51:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:51:46 INFO  : 'con' command is executed.
+17:51:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:51:46 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+17:52:04 INFO  : Checking for BSP changes to sync application flags for project 'microblaze_app1'...
+17:52:06 INFO  : Disconnected from the channel tcfchan#2.
+17:52:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:52:07 INFO  : Jtag cable 'Digilent Arty 210319A396E5A' is selected.
+17:52:07 INFO  : 'jtag frequency' command is executed.
+17:52:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}' command is executed.
+17:52:08 INFO  : Device configured successfully with "C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit"
+17:52:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:52:09 INFO  : Hardware design and registers information is loaded from 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa'.
+17:52:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:52:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:52:09 INFO  : System reset is completed.
+17:52:12 INFO  : 'after 3000' command is executed.
+17:52:12 INFO  : Context for processor 'microblaze_0' is selected.
+17:52:12 INFO  : The application 'C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf' is downloaded to processor 'microblaze_0'.
+17:52:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A396E5A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A396E5A-0362d093-0"}
+fpga -file C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1/Debug/microblaze_app1.elf
+----------------End of Script----------------
+
+17:52:12 INFO  : Context for processor 'microblaze_0' is selected.
+17:52:12 INFO  : 'con' command is executed.
+17:52:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:52:12 INFO  : Launch script is exported to file 'C:\Xilinx\VivadoProjects\microblaze_mcu\microblaze_mcu.vitis\microblaze_app1_system\_ide\scripts\debugger_microblaze_app1-default.tcl'
+10:14:33 INFO  : Disconnected from the channel tcfchan#3.

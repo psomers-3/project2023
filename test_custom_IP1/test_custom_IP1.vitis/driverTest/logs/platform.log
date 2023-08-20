@@ -1,0 +1,945 @@
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-07-25.13:30:46::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWWriter::formatted JSON is {
+	"platformName":	"driverTest",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"driverTest",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/test_custom_IP1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-07-25.13:30:46::SCWWriter::formatted JSON is {
+	"platformName":	"driverTest",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"driverTest",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/test_custom_IP1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"driverTest",
+	"systems":	[{
+			"systemName":	"driverTest",
+			"systemDesc":	"driverTest",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"driverTest"
+		}]
+}
+TRACE::2023-07-25.13:30:46::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-07-25.13:30:46::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-07-25.13:30:46::SCWWriter::formatted JSON is {
+	"platformName":	"driverTest",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"driverTest",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/test_custom_IP1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"driverTest",
+	"systems":	[{
+			"systemName":	"driverTest",
+			"systemDesc":	"driverTest",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"driverTest"
+		}]
+}
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:46::SCWDomain::checking for install qemu data   : 
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:46::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:46::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-07-25.13:30:46::SCWMssOS::No sw design opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:46::SCWMssOS::mss does not exists at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:46::SCWMssOS::Creating sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:46::SCWMssOS::Adding the swdes entry, created swdb C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:46::SCWMssOS::updating the scw layer changes to swdes at   C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:46::SCWMssOS::Writing mss at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:46::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-25.13:30:46::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-07-25.13:30:46::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-07-25.13:30:46::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-25.13:30:46::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-07-25.13:30:47::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-07-25.13:30:47::SCWMssOS::Writing the mss file completed C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::Commit changes completed.
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:47::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:47::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:47::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:47::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:47::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:47::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWWriter::formatted JSON is {
+	"platformName":	"driverTest",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"driverTest",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/test_custom_IP1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"driverTest",
+	"systems":	[{
+			"systemName":	"driverTest",
+			"systemDesc":	"driverTest",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"driverTest",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"cf6a004ce9df491a294fce195010cb45",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-07-25.13:30:47::SCWPlatform::Started generating the artifacts platform driverTest
+TRACE::2023-07-25.13:30:47::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-07-25.13:30:47::SCWPlatform::Started generating the artifacts for system configuration driverTest
+LOG::2023-07-25.13:30:47::SCWSystem::Checking the domain standalone_domain
+LOG::2023-07-25.13:30:47::SCWSystem::Not a boot domain 
+LOG::2023-07-25.13:30:47::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-07-25.13:30:47::SCWDomain::Generating domain artifcats
+TRACE::2023-07-25.13:30:47::SCWMssOS::Generating standalone artifcats
+TRACE::2023-07-25.13:30:47::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:47::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:47::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-25.13:30:47::SCWMssOS::Mss edits present, copying mssfile into export location C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-07-25.13:30:47::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-07-25.13:30:47::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-07-25.13:30:47::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-07-25.13:30:47::SCWMssOS::Copying to export directory.
+TRACE::2023-07-25.13:30:47::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-07-25.13:30:47::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-07-25.13:30:47::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-07-25.13:30:47::SCWSystem::Completed Processing the sysconfig driverTest
+LOG::2023-07-25.13:30:47::SCWPlatform::Completed generating the artifacts for system configuration driverTest
+TRACE::2023-07-25.13:30:47::SCWPlatform::Started preparing the platform 
+TRACE::2023-07-25.13:30:47::SCWSystem::Writing the bif file for system config driverTest
+TRACE::2023-07-25.13:30:47::SCWSystem::dir created 
+TRACE::2023-07-25.13:30:47::SCWSystem::Writing the bif 
+TRACE::2023-07-25.13:30:47::SCWPlatform::Started writing the spfm file 
+TRACE::2023-07-25.13:30:47::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-07-25.13:30:47::SCWPlatform::Completed generating the platform
+TRACE::2023-07-25.13:30:47::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-25.13:30:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-25.13:30:47::SCWMssOS::Commit changes completed.
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:47::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:47::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:47::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:47::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:47::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:47::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:47::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:47::SCWWriter::formatted JSON is {
+	"platformName":	"driverTest",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"driverTest",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/test_custom_IP1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"driverTest",
+	"systems":	[{
+			"systemName":	"driverTest",
+			"systemDesc":	"driverTest",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"driverTest",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"cf6a004ce9df491a294fce195010cb45",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-07-25.13:30:47::SCWPlatform::updated the xpfm file.
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-25.13:30:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-25.13:30:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWWriter::formatted JSON is {
+	"platformName":	"driverTest",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"driverTest",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/test_custom_IP1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"driverTest",
+	"systems":	[{
+			"systemName":	"driverTest",
+			"systemDesc":	"driverTest",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"driverTest",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"cf6a004ce9df491a294fce195010cb45",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-25.13:30:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-25.13:30:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWWriter::formatted JSON is {
+	"platformName":	"driverTest",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"driverTest",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/test_custom_IP1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"driverTest",
+	"systems":	[{
+			"systemName":	"driverTest",
+			"systemDesc":	"driverTest",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"driverTest",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"cf6a004ce9df491a294fce195010cb45",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-25.13:30:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-25.13:30:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-25.13:30:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWWriter::formatted JSON is {
+	"platformName":	"driverTest",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"driverTest",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/test_custom_IP1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"driverTest",
+	"systems":	[{
+			"systemName":	"driverTest",
+			"systemDesc":	"driverTest",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"driverTest",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"cf6a004ce9df491a294fce195010cb45",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-25.13:30:48::SCWPlatform::Clearing the existing platform
+TRACE::2023-07-25.13:30:48::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-07-25.13:30:48::SCWMssOS::Removing the swdes entry for  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWSystem::Clearing the domains completed.
+TRACE::2023-07-25.13:30:48::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform location is C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Removing the HwDB with name C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWReader::Active system found as  driverTest
+TRACE::2023-07-25.13:30:48::SCWReader::Handling sysconfig driverTest
+TRACE::2023-07-25.13:30:48::SCWDomain::checking for install qemu data   : 
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-07-25.13:30:48::SCWMssOS::No sw design opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::mss exists loading the mss file  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Opened the sw design from mss  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Adding the swdes entry C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-07-25.13:30:48::SCWMssOS::updating the scw layer about changes
+TRACE::2023-07-25.13:30:48::SCWMssOS::Opened the sw design.  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-25.13:30:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-25.13:30:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-25.13:30:48::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-07-25.13:30:48::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:30:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:30:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-25.13:30:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:30:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:30:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:30:48::SCWReader::No isolation master present  
+LOG::2023-07-25.13:33:16::SCWPlatform::Started generating the artifacts platform driverTest
+TRACE::2023-07-25.13:33:16::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-07-25.13:33:16::SCWPlatform::Started generating the artifacts for system configuration driverTest
+LOG::2023-07-25.13:33:16::SCWSystem::Checking the domain standalone_domain
+LOG::2023-07-25.13:33:16::SCWSystem::Not a boot domain 
+LOG::2023-07-25.13:33:16::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-07-25.13:33:16::SCWDomain::Generating domain artifcats
+TRACE::2023-07-25.13:33:16::SCWMssOS::Generating standalone artifcats
+TRACE::2023-07-25.13:33:16::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-07-25.13:33:16::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:33:16::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:33:16::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:33:16::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:33:16::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:33:16::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-25.13:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-25.13:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:33:16::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:33:16::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:33:16::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-25.13:33:16::SCWMssOS::Mss edits present, copying mssfile into export location C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:33:16::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-07-25.13:33:16::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-07-25.13:33:16::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-07-25.13:33:16::SCWMssOS::doing bsp build ... 
+TRACE::2023-07-25.13:33:16::SCWMssOS::System Command Ran  C: & cd  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp & make 
+TRACE::2023-07-25.13:33:16::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-07-25.13:33:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-07-25.13:33:16::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-25.13:33:16::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-07-25.13:33:16::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:33:16::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-07-25.13:33:17::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-25.13:33:17::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-07-25.13:33:17::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:33:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src"
+
+TRACE::2023-07-25.13:33:17::SCWMssOS::make -C microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-
+TRACE::2023-07-25.13:33:17::SCWMssOS::ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sec
+TRACE::2023-07-25.13:33:17::SCWMssOS::tions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:33:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-07-25.13:33:17::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-07-25.13:33:17::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-07-25.13:33:17::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:33:17::SCWMssOS::"Running Make libs in microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src"
+
+TRACE::2023-07-25.13:33:17::SCWMssOS::make -C microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar"
+TRACE::2023-07-25.13:33:17::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sectio
+TRACE::2023-07-25.13:33:17::SCWMssOS::ns -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:33:17::SCWMssOS::"Compiling GPIO_Control_Pat..."
+
+ERROR::2023-07-25.13:33:17::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2023-07-25.13:33:17::SCWSystem::Error in Processing the domain standalone_domain
+LOG::2023-07-25.13:42:34::SCWPlatform::Started generating the artifacts platform driverTest
+TRACE::2023-07-25.13:42:34::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-07-25.13:42:34::SCWPlatform::Started generating the artifacts for system configuration driverTest
+LOG::2023-07-25.13:42:34::SCWSystem::Checking the domain standalone_domain
+LOG::2023-07-25.13:42:34::SCWSystem::Not a boot domain 
+LOG::2023-07-25.13:42:34::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-07-25.13:42:34::SCWDomain::Generating domain artifcats
+TRACE::2023-07-25.13:42:34::SCWMssOS::Generating standalone artifcats
+TRACE::2023-07-25.13:42:34::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-07-25.13:42:34::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:42:34::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:42:34::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:42:34::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw
+TRACE::2023-07-25.13:42:34::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/hw/design_1_wrapper.xsa
+TRACE::2023-07-25.13:42:34::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-25.13:42:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-25.13:42:34::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-25.13:42:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-25.13:42:34::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:42:34::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:42:34::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-25.13:42:34::SCWMssOS::Mss edits present, copying mssfile into export location C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-25.13:42:34::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-07-25.13:42:34::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-07-25.13:42:34::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-07-25.13:42:34::SCWMssOS::doing bsp build ... 
+TRACE::2023-07-25.13:42:34::SCWMssOS::System Command Ran  C: & cd  C:/Xilinx/VivadoProjects/test_custom_IP1/test_custom_IP1.vitis/driverTest/microblaze_0/standalone_domain/bsp & make 
+TRACE::2023-07-25.13:42:34::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-25.13:42:34::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-07-25.13:42:34::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-25.13:42:34::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-07-25.13:42:34::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::make -C microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-
+TRACE::2023-07-25.13:42:34::SCWMssOS::ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sec
+TRACE::2023-07-25.13:42:34::SCWMssOS::tions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-07-25.13:42:34::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-07-25.13:42:34::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::"Running Make libs in microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::make -C microblaze_0/libsrc/GPIO_Control_Pat_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar"
+TRACE::2023-07-25.13:42:34::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sectio
+TRACE::2023-07-25.13:42:34::SCWMssOS::ns -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-25.13:42:34::SCWMssOS::"Compiling GPIO_Control_Pat..."
+
+ERROR::2023-07-25.13:42:34::SCWMssOS::Failed to build  the bsp sources for domain - standalone_domain
+ERROR::2023-07-25.13:42:34::SCWSystem::Error in Processing the domain standalone_domain

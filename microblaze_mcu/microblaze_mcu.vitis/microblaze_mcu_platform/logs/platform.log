@@ -1,0 +1,1106 @@
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-07-21.12:43:46::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-07-21.12:43:46::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_mcu_platform",
+	"systems":	[{
+			"systemName":	"microblaze_mcu_platform",
+			"systemDesc":	"microblaze_mcu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_mcu_platform"
+		}]
+}
+TRACE::2023-07-21.12:43:46::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-07-21.12:43:46::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-07-21.12:43:46::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_mcu_platform",
+	"systems":	[{
+			"systemName":	"microblaze_mcu_platform",
+			"systemDesc":	"microblaze_mcu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_mcu_platform"
+		}]
+}
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:46::SCWDomain::checking for install qemu data   : 
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:46::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:46::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:46::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-07-21.12:43:46::SCWMssOS::No sw design opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:46::SCWMssOS::mss does not exists at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:46::SCWMssOS::Creating sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:46::SCWMssOS::Adding the swdes entry, created swdb C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:46::SCWMssOS::updating the scw layer changes to swdes at   C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:46::SCWMssOS::Writing mss at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:46::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-21.12:43:46::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-07-21.12:43:46::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-07-21.12:43:46::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-21.12:43:46::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-07-21.12:43:48::SCWMssOS::Writing the mss file completed C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_mcu_platform",
+	"systems":	[{
+			"systemName":	"microblaze_mcu_platform",
+			"systemDesc":	"microblaze_mcu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_mcu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"def569fb6dd72543931527b08b6908f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-07-21.12:43:48::SCWPlatform::Started generating the artifacts platform microblaze_mcu_platform
+TRACE::2023-07-21.12:43:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-07-21.12:43:48::SCWPlatform::Started generating the artifacts for system configuration microblaze_mcu_platform
+LOG::2023-07-21.12:43:48::SCWSystem::Checking the domain standalone_domain
+LOG::2023-07-21.12:43:48::SCWSystem::Not a boot domain 
+LOG::2023-07-21.12:43:48::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-07-21.12:43:48::SCWDomain::Generating domain artifcats
+TRACE::2023-07-21.12:43:48::SCWMssOS::Generating standalone artifcats
+TRACE::2023-07-21.12:43:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-21.12:43:48::SCWMssOS::Mss edits present, copying mssfile into export location C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-07-21.12:43:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-07-21.12:43:48::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-07-21.12:43:48::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-07-21.12:43:48::SCWMssOS::Copying to export directory.
+TRACE::2023-07-21.12:43:48::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-07-21.12:43:48::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-07-21.12:43:48::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-07-21.12:43:48::SCWSystem::Completed Processing the sysconfig microblaze_mcu_platform
+LOG::2023-07-21.12:43:48::SCWPlatform::Completed generating the artifacts for system configuration microblaze_mcu_platform
+TRACE::2023-07-21.12:43:48::SCWPlatform::Started preparing the platform 
+TRACE::2023-07-21.12:43:48::SCWSystem::Writing the bif file for system config microblaze_mcu_platform
+TRACE::2023-07-21.12:43:48::SCWSystem::dir created 
+TRACE::2023-07-21.12:43:48::SCWSystem::Writing the bif 
+TRACE::2023-07-21.12:43:48::SCWPlatform::Started writing the spfm file 
+TRACE::2023-07-21.12:43:48::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-07-21.12:43:48::SCWPlatform::Completed generating the platform
+TRACE::2023-07-21.12:43:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_mcu_platform",
+	"systems":	[{
+			"systemName":	"microblaze_mcu_platform",
+			"systemDesc":	"microblaze_mcu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_mcu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"def569fb6dd72543931527b08b6908f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-07-21.12:43:48::SCWPlatform::updated the xpfm file.
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_mcu_platform",
+	"systems":	[{
+			"systemName":	"microblaze_mcu_platform",
+			"systemDesc":	"microblaze_mcu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_mcu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"def569fb6dd72543931527b08b6908f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_mcu_platform",
+	"systems":	[{
+			"systemName":	"microblaze_mcu_platform",
+			"systemDesc":	"microblaze_mcu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_mcu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"def569fb6dd72543931527b08b6908f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-21.12:43:48::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-21.12:43:48::SCWMssOS::Commit changes completed.
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:48::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-07-21.12:43:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:48::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:48::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:48::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_mcu_platform",
+	"systems":	[{
+			"systemName":	"microblaze_mcu_platform",
+			"systemDesc":	"microblaze_mcu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_mcu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"def569fb6dd72543931527b08b6908f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-21.12:43:49::SCWPlatform::Clearing the existing platform
+TRACE::2023-07-21.12:43:49::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-07-21.12:43:49::SCWMssOS::Removing the swdes entry for  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWSystem::Clearing the domains completed.
+TRACE::2023-07-21.12:43:49::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Platform location is C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:49::SCWPlatform::Removing the HwDB with name C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:49::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-07-21.12:43:49::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWReader::Active system found as  microblaze_mcu_platform
+TRACE::2023-07-21.12:43:49::SCWReader::Handling sysconfig microblaze_mcu_platform
+TRACE::2023-07-21.12:43:49::SCWDomain::checking for install qemu data   : 
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:49::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-07-21.12:43:49::SCWMssOS::No sw design opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWMssOS::mss exists loading the mss file  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWMssOS::Opened the sw design from mss  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWMssOS::Adding the swdes entry C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-07-21.12:43:49::SCWMssOS::updating the scw layer about changes
+TRACE::2023-07-21.12:43:49::SCWMssOS::Opened the sw design.  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-21.12:43:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-21.12:43:49::SCWMssOS::Commit changes completed.
+TRACE::2023-07-21.12:43:49::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-07-21.12:43:49::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:43:49::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:43:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:43:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:43:49::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:43:49::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:43:49::SCWReader::No isolation master present  
+TRACE::2023-07-21.12:44:09::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:09::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:09::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:09::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:44:09::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:09::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:44:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:44:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:44:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:44:09::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:09::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:44:09::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::In reload Mss file.
+TRACE::2023-07-21.12:44:10::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:10::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:10::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:10::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:44:10::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:10::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:44:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:44:10::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:44:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:44:10::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-07-21.12:44:10::SCWMssOS::No sw design opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::mss exists loading the mss file  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::Opened the sw design from mss  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::Adding the swdes entry C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-07-21.12:44:10::SCWMssOS::updating the scw layer about changes
+TRACE::2023-07-21.12:44:10::SCWMssOS::Opened the sw design.  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-21.12:44:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-21.12:44:10::SCWMssOS::Commit changes completed.
+TRACE::2023-07-21.12:44:10::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:10::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:10::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:10::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:44:10::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:10::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:44:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:44:10::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:44:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:44:10::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:44:10::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:10::SCWMssOS::Removing the swdes entry for  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2023-07-21.12:44:22::SCWPlatform::Started generating the artifacts platform microblaze_mcu_platform
+TRACE::2023-07-21.12:44:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-07-21.12:44:22::SCWPlatform::Started generating the artifacts for system configuration microblaze_mcu_platform
+LOG::2023-07-21.12:44:22::SCWSystem::Checking the domain standalone_domain
+LOG::2023-07-21.12:44:22::SCWSystem::Not a boot domain 
+LOG::2023-07-21.12:44:22::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-07-21.12:44:22::SCWDomain::Generating domain artifcats
+TRACE::2023-07-21.12:44:22::SCWMssOS::Generating standalone artifcats
+TRACE::2023-07-21.12:44:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-07-21.12:44:22::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:22::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:22::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:22::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:44:22::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:44:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:44:22::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:44:22::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:22::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-07-21.12:44:22::SCWMssOS::No sw design opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:22::SCWMssOS::mss exists loading the mss file  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:22::SCWMssOS::Opened the sw design from mss  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:22::SCWMssOS::Adding the swdes entry C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-07-21.12:44:22::SCWMssOS::updating the scw layer about changes
+TRACE::2023-07-21.12:44:22::SCWMssOS::Opened the sw design.  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:22::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-21.12:44:22::SCWMssOS::Mss edits present, copying mssfile into export location C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-07-21.12:44:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-07-21.12:44:22::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-07-21.12:44:22::SCWMssOS::doing bsp build ... 
+TRACE::2023-07-21.12:44:22::SCWMssOS::System Command Ran  C: & cd  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp & make 
+TRACE::2023-07-21.12:44:22::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-07-21.12:44:22::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-07-21.12:44:22::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2023-07-21.12:44:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-07-21.12:44:22::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-21.12:44:22::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2023-07-21.12:44:22::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-21.12:44:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2023-07-21.12:44:23::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-21.12:44:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2023-07-21.12:44:23::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_14/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-07-21.12:44:23::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2023-07-21.12:44:23::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-07-21.12:44:23::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2023-07-21.12:44:23::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-07-21.12:44:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2023-07-21.12:44:23::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-07-21.12:44:23::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2023-07-21.12:44:23::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-07-21.12:44:23::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2023-07-21.12:44:23::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-07-21.12:44:23::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2023-07-21.12:44:23::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_14/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-07-21.12:44:23::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2023-07-21.12:44:23::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-07-21.12:44:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-07-21.12:44:23::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2023-07-21.12:44:23::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-07-21.12:44:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-07-21.12:44:24::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2023-07-21.12:44:24::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-21.12:44:26::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-07-21.12:44:26::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-07-21.12:44:26::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-07-21.12:44:26::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2023-07-21.12:44:26::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2023-07-21.12:44:26::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2023-07-21.12:44:26::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xil_cache.o micro
+TRACE::2023-07-21.12:44:26::SCWMssOS::blaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handl
+TRACE::2023-07-21.12:44:26::SCWMssOS::er.o microblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2023-07-21.12:44:26::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2023-07-21.12:44:26::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_c
+TRACE::2023-07-21.12:44:26::SCWMssOS::ache_ext_range.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/li
+TRACE::2023-07-21.12:44:26::SCWMssOS::b/xintc_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyt
+TRACE::2023-07-21.12:44:26::SCWMssOS::e.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_
+TRACE::2023-07-21.12:44:26::SCWMssOS::cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o m
+TRACE::2023-07-21.12:44:26::SCWMssOS::icroblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/mic
+TRACE::2023-07-21.12:44:26::SCWMssOS::roblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/
+TRACE::2023-07-21.12:44:26::SCWMssOS::xio.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.
+TRACE::2023-07-21.12:44:26::SCWMssOS::o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o micr
+TRACE::2023-07-21.12:44:26::SCWMssOS::oblaze_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze
+TRACE::2023-07-21.12:44:26::SCWMssOS::_0/lib/xintc_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xil_testm
+TRACE::2023-07-21.12:44:26::SCWMssOS::em.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_dcache.o m
+TRACE::2023-07-21.12:44:26::SCWMssOS::icroblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/x
+TRACE::2023-07-21.12:44:26::SCWMssOS::gpio_extra.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_sinit.o microblaze
+TRACE::2023-07-21.12:44:26::SCWMssOS::_0/lib/microblaze_init_icache_range.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2023-07-21.12:44:26::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-07-21.12:44:26::SCWMssOS::Copying to export directory.
+TRACE::2023-07-21.12:44:26::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-07-21.12:44:26::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-07-21.12:44:26::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-07-21.12:44:26::SCWSystem::Completed Processing the sysconfig microblaze_mcu_platform
+LOG::2023-07-21.12:44:26::SCWPlatform::Completed generating the artifacts for system configuration microblaze_mcu_platform
+TRACE::2023-07-21.12:44:26::SCWPlatform::Started preparing the platform 
+TRACE::2023-07-21.12:44:26::SCWSystem::Writing the bif file for system config microblaze_mcu_platform
+TRACE::2023-07-21.12:44:26::SCWSystem::dir created 
+TRACE::2023-07-21.12:44:26::SCWSystem::Writing the bif 
+TRACE::2023-07-21.12:44:26::SCWPlatform::Started writing the spfm file 
+TRACE::2023-07-21.12:44:26::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-07-21.12:44:26::SCWPlatform::Completed generating the platform
+TRACE::2023-07-21.12:44:26::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-21.12:44:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-21.12:44:26::SCWMssOS::Commit changes completed.
+TRACE::2023-07-21.12:44:26::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:26::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:26::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:26::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:44:26::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:44:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:44:26::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:44:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:44:26::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:26::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:44:26::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:26::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_mcu_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_mcu_platform",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/microblaze_mcu/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_mcu_platform",
+	"systems":	[{
+			"systemName":	"microblaze_mcu_platform",
+			"systemDesc":	"microblaze_mcu_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_mcu_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"def569fb6dd72543931527b08b6908f5",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-07-21.12:44:26::SCWPlatform::updated the xpfm file.
+TRACE::2023-07-21.12:44:27::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:27::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:27::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:27::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw
+TRACE::2023-07-21.12:44:27::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/hw/design_1_wrapper.xsa
+TRACE::2023-07-21.12:44:27::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-21.12:44:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-07-21.12:44:27::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-07-21.12:44:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-21.12:44:27::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-21.12:44:27::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-21.12:44:27::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/microblaze_0/standalone_domain/bsp/system.mss

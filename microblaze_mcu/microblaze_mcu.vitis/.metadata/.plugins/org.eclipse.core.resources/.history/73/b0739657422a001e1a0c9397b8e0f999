@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="microblaze_app1" location="C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_app1" platform="C:/Xilinx/VivadoProjects/microblaze_mcu/microblaze_mcu.vitis/microblaze_mcu_platform/export/microblaze_mcu_platform/microblaze_mcu_platform.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="microblaze_app1_system" sysConfig="microblaze_mcu_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="0a2c5b6c5ffcc0ef665886599ef2ca0e">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.646458548">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.328358937" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

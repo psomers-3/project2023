@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Jul 20 16:06:03 2023
+# Process ID: 4164
+# Current directory: C:/Xilinx/VivadoProjects/uart_platform/uart_platform.runs/impl_1
+# Command line: vivado.exe -log uart_platform_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source uart_platform_wrapper.tcl -notrace
+# Log file: C:/Xilinx/VivadoProjects/uart_platform/uart_platform.runs/impl_1/uart_platform_wrapper.vdi
+# Journal file: C:/Xilinx/VivadoProjects/uart_platform/uart_platform.runs/impl_1\vivado.jou
+# Running On: PatLaptop, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16844 MB
+#-----------------------------------------------------------
+source uart_platform_wrapper.tcl -notrace

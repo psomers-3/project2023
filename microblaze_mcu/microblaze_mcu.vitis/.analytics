@@ -1,0 +1,23 @@
+timestamp=[2023-07-21 12:43:07], mode=WORKBENCH_START, duration=0:00:06.085, duration_ms=6085, data={}
+timestamp=[2023-07-21 12:43:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.305, duration_ms=305, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-07-21 12:43:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.594, duration_ms=594, data={}
+timestamp=[2023-07-21 12:43:48], mode=PLATFORM_CREATION, duration=0:00:02.944, duration_ms=2944, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-07-21 12:44:27], mode=PLATFORM_GENERATION, duration=0:00:06.386, duration_ms=6386, data={name=microblaze_mcu_platform}
+timestamp=[2023-07-21 12:45:21], mode=APP_CREATION, duration=0:00:01.501, duration_ms=1501, data={name=microblaze_app1, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=microblaze_mcu_platform, application_type=application}
+timestamp=[2023-07-21 12:51:14], mode=BUILD, duration=0:00:01.252, duration_ms=1252, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-21 13:29:07], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-21 13:29:49], mode=BUILD, duration=0:00:00.687, duration_ms=687, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-21 13:34:31], mode=BUILD, duration=0:00:00.647, duration_ms=647, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-21 13:39:32], mode=BUILD, duration=0:00:00.762, duration_ms=762, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-21 13:45:38], mode=BUILD, duration=0:00:00.731, duration_ms=731, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-21 13:47:42], mode=BUILD, duration=0:00:00.788, duration_ms=788, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-21 13:48:55], mode=BUILD, duration=0:00:00.665, duration_ms=665, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-21 13:50:26], mode=BUILD, duration=0:00:00.707, duration_ms=707, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-24 17:45:50], mode=WORKBENCH_START, duration=0:00:10.227, duration_ms=10227, data={}
+timestamp=[2023-07-24 17:45:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.648, duration_ms=648, data={editors_count=3, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,microblaze_app1,microblaze_app1_system,microblaze_mcu_platform}
+timestamp=[2023-07-24 17:45:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.364, duration_ms=364, data={}
+timestamp=[2023-07-24 17:46:16], mode=BUILD, duration=0:00:01.824, duration_ms=1824, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-24 17:46:17], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=microblaze_app1_system, configuration=Debug, clean_build=false}
+timestamp=[2023-07-24 17:47:20], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-24 17:51:31], mode=BUILD, duration=0:00:00.614, duration_ms=614, data={name=microblaze_app1, configuration=Debug, clean_build=false}
+timestamp=[2023-07-24 17:52:04], mode=BUILD, duration=0:00:00.557, duration_ms=557, data={name=microblaze_app1, configuration=Debug, clean_build=false}

@@ -1,0 +1,1040 @@
+TRACE::2023-07-20.16:10:36::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:36::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:36::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-07-20.16:10:37::SCWPlatform::Opened new HwDB with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-07-20.16:10:37::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uart_platform_project",
+	"systems":	[{
+			"systemName":	"uart_platform_project",
+			"systemDesc":	"uart_platform_project",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uart_platform_project"
+		}]
+}
+TRACE::2023-07-20.16:10:37::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-07-20.16:10:37::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-07-20.16:10:37::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uart_platform_project",
+	"systems":	[{
+			"systemName":	"uart_platform_project",
+			"systemDesc":	"uart_platform_project",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uart_platform_project"
+		}]
+}
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:37::SCWDomain::checking for install qemu data   : 
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:37::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:37::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:37::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-07-20.16:10:37::SCWMssOS::No sw design opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:37::SCWMssOS::mss does not exists at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:37::SCWMssOS::Creating sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:37::SCWMssOS::Adding the swdes entry, created swdb C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:37::SCWMssOS::updating the scw layer changes to swdes at   C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:37::SCWMssOS::Writing mss at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:37::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-20.16:10:37::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-07-20.16:10:37::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-07-20.16:10:37::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-20.16:10:37::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-07-20.16:10:38::SCWMssOS::Writing the mss file completed C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Commit changes completed.
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uart_platform_project",
+	"systems":	[{
+			"systemName":	"uart_platform_project",
+			"systemDesc":	"uart_platform_project",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uart_platform_project",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"f576dc56a3d90d59a36c707172ff2aa6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-07-20.16:10:38::SCWPlatform::Started generating the artifacts platform uart_platform_project
+TRACE::2023-07-20.16:10:38::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-07-20.16:10:38::SCWPlatform::Started generating the artifacts for system configuration uart_platform_project
+LOG::2023-07-20.16:10:38::SCWSystem::Checking the domain standalone_domain
+LOG::2023-07-20.16:10:38::SCWSystem::Not a boot domain 
+LOG::2023-07-20.16:10:38::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-07-20.16:10:38::SCWDomain::Generating domain artifcats
+TRACE::2023-07-20.16:10:38::SCWMssOS::Generating standalone artifcats
+TRACE::2023-07-20.16:10:38::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-20.16:10:38::SCWMssOS::Mss edits present, copying mssfile into export location C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-07-20.16:10:38::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-07-20.16:10:38::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-07-20.16:10:38::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-07-20.16:10:38::SCWMssOS::Copying to export directory.
+TRACE::2023-07-20.16:10:38::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-07-20.16:10:38::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-07-20.16:10:38::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-07-20.16:10:38::SCWSystem::Completed Processing the sysconfig uart_platform_project
+LOG::2023-07-20.16:10:38::SCWPlatform::Completed generating the artifacts for system configuration uart_platform_project
+TRACE::2023-07-20.16:10:38::SCWPlatform::Started preparing the platform 
+TRACE::2023-07-20.16:10:38::SCWSystem::Writing the bif file for system config uart_platform_project
+TRACE::2023-07-20.16:10:38::SCWSystem::dir created 
+TRACE::2023-07-20.16:10:38::SCWSystem::Writing the bif 
+TRACE::2023-07-20.16:10:38::SCWPlatform::Started writing the spfm file 
+TRACE::2023-07-20.16:10:38::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-07-20.16:10:38::SCWPlatform::Completed generating the platform
+TRACE::2023-07-20.16:10:38::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Commit changes completed.
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uart_platform_project",
+	"systems":	[{
+			"systemName":	"uart_platform_project",
+			"systemDesc":	"uart_platform_project",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uart_platform_project",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"f576dc56a3d90d59a36c707172ff2aa6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-07-20.16:10:38::SCWPlatform::updated the xpfm file.
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Commit changes completed.
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uart_platform_project",
+	"systems":	[{
+			"systemName":	"uart_platform_project",
+			"systemDesc":	"uart_platform_project",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uart_platform_project",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"f576dc56a3d90d59a36c707172ff2aa6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Commit changes completed.
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uart_platform_project",
+	"systems":	[{
+			"systemName":	"uart_platform_project",
+			"systemDesc":	"uart_platform_project",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uart_platform_project",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"f576dc56a3d90d59a36c707172ff2aa6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-20.16:10:38::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-20.16:10:38::SCWMssOS::Commit changes completed.
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Opened existing hwdb uart_platform_wrapper_0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:39::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:39::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uart_platform_project",
+	"systems":	[{
+			"systemName":	"uart_platform_project",
+			"systemDesc":	"uart_platform_project",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uart_platform_project",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"f576dc56a3d90d59a36c707172ff2aa6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-07-20.16:10:39::SCWPlatform::Clearing the existing platform
+TRACE::2023-07-20.16:10:39::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-07-20.16:10:39::SCWMssOS::Removing the swdes entry for  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWSystem::Clearing the domains completed.
+TRACE::2023-07-20.16:10:39::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Platform location is C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Removing the HwDB with name C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-07-20.16:10:39::SCWPlatform::Opened new HwDB with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWReader::Active system found as  uart_platform_project
+TRACE::2023-07-20.16:10:39::SCWReader::Handling sysconfig uart_platform_project
+TRACE::2023-07-20.16:10:39::SCWDomain::checking for install qemu data   : 
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Opened existing hwdb uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Opened existing hwdb uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Opened existing hwdb uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Opened existing hwdb uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:39::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-07-20.16:10:39::SCWMssOS::No sw design opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWMssOS::mss exists loading the mss file  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWMssOS::Opened the sw design from mss  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWMssOS::Adding the swdes entry C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-07-20.16:10:39::SCWMssOS::updating the scw layer about changes
+TRACE::2023-07-20.16:10:39::SCWMssOS::Opened the sw design.  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-20.16:10:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-20.16:10:39::SCWMssOS::Commit changes completed.
+TRACE::2023-07-20.16:10:39::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-07-20.16:10:39::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:10:39::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:10:39::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Opened existing hwdb uart_platform_wrapper_1
+TRACE::2023-07-20.16:10:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:10:39::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:10:39::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:10:39::SCWReader::No isolation master present  
+LOG::2023-07-20.16:11:38::SCWPlatform::Started generating the artifacts platform uart_platform_project
+TRACE::2023-07-20.16:11:38::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-07-20.16:11:38::SCWPlatform::Started generating the artifacts for system configuration uart_platform_project
+LOG::2023-07-20.16:11:38::SCWSystem::Checking the domain standalone_domain
+LOG::2023-07-20.16:11:38::SCWSystem::Not a boot domain 
+LOG::2023-07-20.16:11:38::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-07-20.16:11:38::SCWDomain::Generating domain artifcats
+TRACE::2023-07-20.16:11:38::SCWMssOS::Generating standalone artifcats
+TRACE::2023-07-20.16:11:38::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-07-20.16:11:38::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:38::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:38::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:38::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:11:38::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:38::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:11:38::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:11:38::SCWPlatform::Opened existing hwdb uart_platform_wrapper_1
+TRACE::2023-07-20.16:11:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:11:38::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:11:38::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:11:38::SCWMssOS::Completed writing the mss file at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp
+TRACE::2023-07-20.16:11:38::SCWMssOS::Mss edits present, copying mssfile into export location C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:11:38::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-07-20.16:11:38::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-07-20.16:11:38::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-07-20.16:11:38::SCWMssOS::doing bsp build ... 
+TRACE::2023-07-20.16:11:38::SCWMssOS::System Command Ran  C: & cd  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp & make 
+TRACE::2023-07-20.16:11:38::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-20.16:11:38::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-07-20.16:11:38::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-07-20.16:11:38::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-07-20.16:11:38::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_14/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-07-20.16:11:38::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-07-20.16:11:38::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-07-20.16:11:38::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-07-20.16:11:38::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-07-20.16:11:38::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-07-20.16:11:38::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-07-20.16:11:38::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-07-20.16:11:38::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-07-20.16:11:38::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-07-20.16:11:38::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_14/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-07-20.16:11:38::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-07-20.16:11:38::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-07-20.16:11:38::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-07-20.16:11:38::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-07-20.16:11:38::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:39::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-07-20.16:11:39::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-07-20.16:11:39::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-07-20.16:11:39::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-07-20.16:11:41::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-07-20.16:11:41::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-07-20.16:11:41::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-07-20.16:11:41::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2023-07-20.16:11:41::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2023-07-20.16:11:41::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2023-07-20.16:11:41::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xil_cache.o micro
+TRACE::2023-07-20.16:11:41::SCWMssOS::blaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib
+TRACE::2023-07-20.16:11:41::SCWMssOS::/microblaze_exception_handler.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2023-07-20.16:11:41::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2023-07-20.16:11:41::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_
+TRACE::2023-07-20.16:11:41::SCWMssOS::flush_cache_ext_range.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microbla
+TRACE::2023-07-20.16:11:41::SCWMssOS::ze_0/lib/xintc_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib
+TRACE::2023-07-20.16:11:41::SCWMssOS::/outbyte.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_
+TRACE::2023-07-20.16:11:41::SCWMssOS::0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xintc_i
+TRACE::2023-07-20.16:11:41::SCWMssOS::ntr.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o micro
+TRACE::2023-07-20.16:11:41::SCWMssOS::blaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_dcache
+TRACE::2023-07-20.16:11:41::SCWMssOS::.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_init_dcache_range
+TRACE::2023-07-20.16:11:41::SCWMssOS::.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xin
+TRACE::2023-07-20.16:11:41::SCWMssOS::tc_options.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o m
+TRACE::2023-07-20.16:11:41::SCWMssOS::icroblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microblaze
+TRACE::2023-07-20.16:11:41::SCWMssOS::_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xio.o micr
+TRACE::2023-07-20.16:11:41::SCWMssOS::oblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/fcntl.o mi
+TRACE::2023-07-20.16:11:41::SCWMssOS::croblaze_0/lib/microblaze_init_icache_range.o
+
+TRACE::2023-07-20.16:11:41::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-07-20.16:11:41::SCWMssOS::Copying to export directory.
+TRACE::2023-07-20.16:11:41::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-07-20.16:11:41::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-07-20.16:11:41::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-07-20.16:11:41::SCWSystem::Completed Processing the sysconfig uart_platform_project
+LOG::2023-07-20.16:11:41::SCWPlatform::Completed generating the artifacts for system configuration uart_platform_project
+TRACE::2023-07-20.16:11:41::SCWPlatform::Started preparing the platform 
+TRACE::2023-07-20.16:11:41::SCWSystem::Writing the bif file for system config uart_platform_project
+TRACE::2023-07-20.16:11:41::SCWSystem::dir created 
+TRACE::2023-07-20.16:11:41::SCWSystem::Writing the bif 
+TRACE::2023-07-20.16:11:41::SCWPlatform::Started writing the spfm file 
+TRACE::2023-07-20.16:11:41::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-07-20.16:11:41::SCWPlatform::Completed generating the platform
+TRACE::2023-07-20.16:11:41::SCWMssOS::Saving the mss changes C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:11:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-07-20.16:11:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-07-20.16:11:41::SCWMssOS::Commit changes completed.
+TRACE::2023-07-20.16:11:41::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:41::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:41::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:41::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:11:41::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:41::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:11:41::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:11:41::SCWPlatform::Opened existing hwdb uart_platform_wrapper_1
+TRACE::2023-07-20.16:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:11:41::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:11:41::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:11:41::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:11:41::SCWWriter::formatted JSON is {
+	"platformName":	"uart_platform_project",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uart_platform_project",
+	"platHandOff":	"C:/Xilinx/VivadoProjects/uart_platform/uart_platform_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uart_platform_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uart_platform_project",
+	"systems":	[{
+			"systemName":	"uart_platform_project",
+			"systemDesc":	"uart_platform_project",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uart_platform_project",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"f576dc56a3d90d59a36c707172ff2aa6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-07-20.16:11:41::SCWPlatform::updated the xpfm file.
+TRACE::2023-07-20.16:11:41::SCWPlatform::Trying to open the hw design at C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:41::SCWPlatform::DSA given C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:41::SCWPlatform::DSA absoulate path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:41::SCWPlatform::DSA directory C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw
+TRACE::2023-07-20.16:11:41::SCWPlatform:: Platform Path C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/hw/uart_platform_wrapper.xsa
+TRACE::2023-07-20.16:11:41::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2023-07-20.16:11:41::SCWPlatform::Trying to set the existing hwdb with name uart_platform_wrapper_1
+TRACE::2023-07-20.16:11:41::SCWPlatform::Opened existing hwdb uart_platform_wrapper_1
+TRACE::2023-07-20.16:11:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-07-20.16:11:41::SCWMssOS::Checking the sw design at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-07-20.16:11:41::SCWMssOS::DEBUG:  swdes dump  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-07-20.16:11:41::SCWMssOS::Sw design exists and opened at  C:/Xilinx/VivadoProjects/uart_platform/uart_platform.vitis/uart_platform_project/microblaze_0/standalone_domain/bsp/system.mss
